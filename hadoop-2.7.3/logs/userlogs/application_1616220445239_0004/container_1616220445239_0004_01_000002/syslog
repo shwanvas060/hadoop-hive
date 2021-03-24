@@ -1,0 +1,60 @@
+2021-03-20 12:21:25,540 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2021-03-20 12:21:25,852 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2021-03-20 12:21:25,852 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2021-03-20 12:21:25,892 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2021-03-20 12:21:25,892 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1616220445239_0004, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@543588e6)
+2021-03-20 12:21:26,887 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2021-03-20 12:21:27,595 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616220445239_0004
+2021-03-20 12:21:28,230 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2021-03-20 12:21:29,307 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2021-03-20 12:21:29,366 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@3542162a
+2021-03-20 12:21:29,729 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: Paths:/user/hive/warehouse/ds.db/cgpa/Book1.csv:0+922InputFormatClass: org.apache.hadoop.mapred.TextInputFormat
+
+2021-03-20 12:21:30,114 INFO [main] org.apache.hadoop.hive.ql.exec.Utilities: PLAN PATH = hdfs://localhost:9000/tmp/hive/hadoop2/3912e113-4934-49ed-9ca6-41c6cae0eeab/hive_2021-03-20_12-21-03_562_6757394470222037707-4/-mr-10005/18879544-54d7-43c2-b154-fb61eb76543a/map.xml
+2021-03-20 12:21:30,130 INFO [main] org.apache.hadoop.hive.ql.exec.SerializationUtilities: Deserializing MapWork using kryo
+2021-03-20 12:21:30,903 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: map.input.file is deprecated. Instead, use mapreduce.map.input.file
+2021-03-20 12:21:30,903 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: map.input.start is deprecated. Instead, use mapreduce.map.input.start
+2021-03-20 12:21:30,903 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: map.input.length is deprecated. Instead, use mapreduce.map.input.length
+2021-03-20 12:21:30,903 INFO [main] org.apache.hadoop.mapred.MapTask: numReduceTasks: 1
+2021-03-20 12:21:30,985 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2021-03-20 12:21:30,985 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2021-03-20 12:21:30,985 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2021-03-20 12:21:30,985 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2021-03-20 12:21:30,985 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2021-03-20 12:21:30,996 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2021-03-20 12:21:31,006 INFO [main] org.apache.hadoop.hive.ql.exec.mr.ExecMapper: conf classpath = [file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616220445239_0004/container_1616220445239_0004_01_000002/classpath-8498860192110513929.jar, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616220445239_0004/container_1616220445239_0004_01_000002/job.jar/lib/*, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616220445239_0004/container_1616220445239_0004_01_000002/classpath-8498860192110513929.jar, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616220445239_0004/container_1616220445239_0004_01_000002/job.jar/]
+2021-03-20 12:21:31,006 INFO [main] org.apache.hadoop.hive.ql.exec.mr.ExecMapper: thread classpath = [file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616220445239_0004/container_1616220445239_0004_01_000002/classpath-8498860192110513929.jar, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616220445239_0004/container_1616220445239_0004_01_000002/job.jar/lib/*, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616220445239_0004/container_1616220445239_0004_01_000002/classpath-8498860192110513929.jar, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616220445239_0004/container_1616220445239_0004_01_000002/job.jar/]
+2021-03-20 12:21:31,006 INFO [main] org.apache.hadoop.hive.ql.exec.Utilities: PLAN PATH = hdfs://localhost:9000/tmp/hive/hadoop2/3912e113-4934-49ed-9ca6-41c6cae0eeab/hive_2021-03-20_12-21-03_562_6757394470222037707-4/-mr-10005/18879544-54d7-43c2-b154-fb61eb76543a/map.xml
+2021-03-20 12:21:31,006 INFO [main] org.apache.hadoop.hive.ql.exec.MapOperator: Initializing operator MAP[0]
+2021-03-20 12:21:31,256 INFO [main] org.apache.hadoop.hive.ql.exec.mr.ExecMapper: 
+<MAP>Id =0
+  <Children>null
+  <\Children>
+  <Parent><\Parent>
+<\MAP>
+2021-03-20 12:21:31,266 INFO [main] org.apache.hadoop.hive.ql.exec.TableScanOperator: Initializing operator TS[0]
+2021-03-20 12:21:31,266 INFO [main] org.apache.hadoop.hive.ql.exec.FilterOperator: Initializing operator FIL[9]
+2021-03-20 12:21:31,764 INFO [main] org.apache.hadoop.hive.ql.exec.SelectOperator: Initializing operator SEL[2]
+2021-03-20 12:21:31,764 INFO [main] org.apache.hadoop.hive.ql.exec.SelectOperator: SELECT struct<subject_name:string,cgpa:int,category:string,credits:int>
+2021-03-20 12:21:31,779 INFO [main] org.apache.hadoop.hive.ql.exec.GroupByOperator: Initializing operator GBY[4]
+2021-03-20 12:21:31,795 INFO [main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator: Initializing operator RS[5]
+2021-03-20 12:21:31,795 INFO [main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator: Using tag = -1
+2021-03-20 12:21:31,848 INFO [main] org.apache.hadoop.hive.ql.exec.Utilities: PLAN PATH = hdfs://localhost:9000/tmp/hive/hadoop2/3912e113-4934-49ed-9ca6-41c6cae0eeab/hive_2021-03-20_12-21-03_562_6757394470222037707-4/-mr-10005/18879544-54d7-43c2-b154-fb61eb76543a/map.xml
+2021-03-20 12:21:31,864 INFO [main] org.apache.hadoop.hive.ql.exec.MapOperator: MAP[0]: records read - 1
+2021-03-20 12:21:31,864 INFO [main] org.apache.hadoop.hive.ql.exec.MapOperator: MAP[0]: records read - 10
+2021-03-20 12:21:31,864 INFO [main] org.apache.hadoop.hive.ql.exec.MapOperator: DESERIALIZE_ERRORS:0, RECORDS_IN:22, 
+2021-03-20 12:21:31,864 INFO [main] org.apache.hadoop.hive.ql.exec.GroupByOperator: Begin Hash Table flush: size = 1
+2021-03-20 12:21:31,864 INFO [main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator: keys are [] num distributions: 0
+2021-03-20 12:21:31,864 INFO [main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator: RS[5]: records written - 1
+2021-03-20 12:21:31,864 INFO [main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator: RS[5]: records written - 1
+2021-03-20 12:21:31,864 INFO [main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator: RECORDS_OUT_INTERMEDIATE:1, 
+2021-03-20 12:21:31,880 INFO [main] org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2021-03-20 12:21:31,880 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2021-03-20 12:21:31,880 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 12; bufvoid = 104857600
+2021-03-20 12:21:31,880 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2021-03-20 12:21:31,911 INFO [main] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2021-03-20 12:21:31,930 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1616220445239_0004_m_000000_0 is done. And is in the process of committing
+2021-03-20 12:21:32,149 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1616220445239_0004_m_000000_0' done.
+2021-03-20 12:21:32,265 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping MapTask metrics system...
+2021-03-20 12:21:32,265 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system stopped.
+2021-03-20 12:21:32,265 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system shutdown complete.

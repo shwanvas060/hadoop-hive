@@ -1,0 +1,42 @@
+2021-03-21 23:17:22,947 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2021-03-21 23:17:23,120 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2021-03-21 23:17:23,120 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2021-03-21 23:17:23,157 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2021-03-21 23:17:23,158 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1616348296100_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@383bfa16)
+2021-03-21 23:17:24,552 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2021-03-21 23:17:25,402 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616348296100_0002
+2021-03-21 23:17:26,646 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2021-03-21 23:17:27,848 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2021-03-21 23:17:27,954 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@2f6e28bc
+2021-03-21 23:17:28,019 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@246f8b8b
+2021-03-21 23:17:29,064 INFO [main] ExecReducer: conf classpath = [file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616348296100_0002/container_1616348296100_0002_01_000003/classpath-4349682132793319145.jar, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616348296100_0002/container_1616348296100_0002_01_000003/job.jar/lib/*, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616348296100_0002/container_1616348296100_0002_01_000003/classpath-4349682132793319145.jar, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616348296100_0002/container_1616348296100_0002_01_000003/job.jar/]
+2021-03-21 23:17:29,065 INFO [main] ExecReducer: thread classpath = [file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616348296100_0002/container_1616348296100_0002_01_000003/classpath-4349682132793319145.jar, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616348296100_0002/container_1616348296100_0002_01_000003/job.jar/lib/*, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616348296100_0002/container_1616348296100_0002_01_000003/classpath-4349682132793319145.jar, file:/C:/tmp/hadoop-hadoop2/nm-local-dir/usercache/hadoop2/appcache/application_1616348296100_0002/container_1616348296100_0002_01_000003/job.jar/]
+2021-03-21 23:17:29,438 INFO [main] org.apache.hadoop.hive.ql.exec.Utilities: PLAN PATH = hdfs://localhost:9000/tmp/hive/hadoop2/97fe693e-8e62-4b21-bb3a-8e36d7435d31/hive_2021-03-21_23-16-42_668_85653487750400148-3/-mr-10005/4da939bc-e84d-4482-84b8-3f7560f5f681/reduce.xml
+2021-03-21 23:17:29,633 INFO [main] org.apache.hadoop.hive.ql.exec.SerializationUtilities: Deserializing ReduceWork using kryo
+2021-03-21 23:17:30,498 INFO [main] ExecReducer: 
+<GBY>Id =4
+  <Children>
+    <FS>Id =6
+      <Children>
+      <\Children>
+      <Parent>Id = 4 null<\Parent>
+    <\FS>
+  <\Children>
+  <Parent><\Parent>
+<\GBY>
+2021-03-21 23:17:30,498 INFO [main] org.apache.hadoop.hive.ql.exec.GroupByOperator: Initializing operator GBY[4]
+2021-03-21 23:17:30,534 INFO [main] org.apache.hadoop.hive.ql.exec.FileSinkOperator: Initializing operator FS[6]
+2021-03-21 23:17:30,534 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+2021-03-21 23:17:30,748 INFO [main] org.apache.hadoop.hive.ql.exec.FileSinkOperator: Using serializer : class org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe[[[B@3c49fab6]:[_col0]:[int]] and formatter : org.apache.hadoop.hive.ql.io.HiveSequenceFileOutputFormat@304b9f1a
+2021-03-21 23:17:30,748 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.healthChecker.script.timeout is deprecated. Instead, use mapreduce.tasktracker.healthchecker.script.timeout
+2021-03-21 23:17:30,767 INFO [main] org.apache.hadoop.hive.ql.exec.FileSinkOperator: Final Path: FS hdfs://localhost:9000/tmp/hive/hadoop2/97fe693e-8e62-4b21-bb3a-8e36d7435d31/hive_2021-03-21_23-16-42_668_85653487750400148-1/-mr-10001/.hive-staging_hive_2021-03-21_23-16-42_668_85653487750400148-1/_tmp.-ext-10002/000000_0
+2021-03-21 23:17:30,767 INFO [main] org.apache.hadoop.hive.ql.exec.FileSinkOperator: Writing to temp file: FS hdfs://localhost:9000/tmp/hive/hadoop2/97fe693e-8e62-4b21-bb3a-8e36d7435d31/hive_2021-03-21_23-16-42_668_85653487750400148-1/-mr-10001/.hive-staging_hive_2021-03-21_23-16-42_668_85653487750400148-1/_task_tmp.-ext-10002/_tmp.000000_0
+2021-03-21 23:17:30,767 INFO [main] org.apache.hadoop.hive.ql.exec.FileSinkOperator: New Final Path: FS hdfs://localhost:9000/tmp/hive/hadoop2/97fe693e-8e62-4b21-bb3a-8e36d7435d31/hive_2021-03-21_23-16-42_668_85653487750400148-1/-mr-10001/.hive-staging_hive_2021-03-21_23-16-42_668_85653487750400148-1/_tmp.-ext-10002/000000_0
+2021-03-21 23:17:30,953 INFO [main] org.apache.hadoop.hive.ql.exec.FileSinkOperator: FS[6]: records written - 1
+2021-03-21 23:17:30,954 INFO [main] org.apache.hadoop.hive.ql.exec.FileSinkOperator: FS[6]: records written - 1
+2021-03-21 23:17:31,621 INFO [main] org.apache.hadoop.hive.ql.exec.FileSinkOperator: RECORDS_OUT_0:1, 
+2021-03-21 23:17:31,623 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1616348296100_0002_r_000000_0 is done. And is in the process of committing
+2021-03-21 23:17:31,941 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1616348296100_0002_r_000000_0' done.
+2021-03-21 23:17:32,054 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping ReduceTask metrics system...
+2021-03-21 23:17:32,054 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system stopped.
+2021-03-21 23:17:32,055 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system shutdown complete.
